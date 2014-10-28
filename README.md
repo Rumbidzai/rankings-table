@@ -7,11 +7,11 @@ Usage
 -----
 Given a text input file with game results in the following format:
 
-Lions 3, Snakes 3
-Tarantulas 1, FC Awesome 0
-Lions 1, FC Awesome 1
-Tarantulas 3, Snakes 1
-Lions 4, Grouches 0
+Lions 3, Snakes 3  
+Tarantulas 1, FC Awesome 0  
+Lions 1, FC Awesome 1  
+Tarantulas 3, Snakes 1  
+Lions 4, Grouches 0  
 
 the application will output ranked teams in order, as follows:
 
