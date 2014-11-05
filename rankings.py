@@ -106,7 +106,9 @@ def generate_rankings():
             rank = current_rank
             teams_with_current_rank = 1
 
-        output = "%s. %s: %s \n" % (rank, team, score)
+        suffix = 'pt' if score == 1 else 'pts'
+
+        output = "%s. %s, %s %s\n" % (rank, team, score, suffix)
         sys.stdout.write(output)
 
 
